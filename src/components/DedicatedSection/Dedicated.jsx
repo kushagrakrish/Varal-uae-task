@@ -1,25 +1,26 @@
 import React from "react";
-import "../../Assets/dungeon.png";
-import "../../Assets/Vector-2.png";
-import "../../Assets/Vector-1.png";
+import dungeon from "../../Assets/dungeon.png";
+import Vector2 from "../../Assets/Vector-2.png";
+import Vector1 from "../../Assets/Vector-1.png";
 import Ellipse19 from "../../Assets/Ellipse 19-1.png";
+import Ellipse24 from "../../Assets/Ellipse 24.png";
 
 const Items = [
   {
-    src: "../../Assets/dungeon.png",
+    src: dungeon,
     heading: "UAE Free Zone Company",
     paragraph:
       "Your registration agent, will answer all of your questions and help you to reacha conclusion that meets your objectivesof investing in the UAE.",
   },
   {
-    src: "../../Assets/Vector-2.png",
+    src: Vector2,
     heading: "Dubai Local Companies",
     paragraph:
       "The Dubai LLC formation documentsare actually articles of organization or acertificate of organization. You can get yours today.",
   },
   {
-    src: "../../Assets/Vector-1.png",
-    heading: "Offshore Compamies",
+    src: Vector1,
+    heading: "Offshore Companies",
     paragraph:
       "You can register an offshore company and open its bank account in Dubai.Your agent will help you along all the process",
   },
@@ -48,14 +49,16 @@ const Dedicated = () => {
           Platforms, Ownership Solutions
         </p>
       </div>
-      <section className='grid grid-cols-1 lg:grid-cols-3 gap-2 my-20 px-[15%]'>
+      <section className='grid grid-cols-1 lg:grid-cols-3 gap-2 mt-20 px-[15%]'>
         {Items?.map((item, i) => (
           <div className='mx-auto lg:mx-[1px]'>
-            <img
-              className='my-5 h-[45px] mx-auto lg:mx-[1px]'
-              src={item.src}
-              alt='featurePic'
-            />
+            <div>
+              {console.log(item.src, "Heelo ji")}
+              <img
+                className='my-5 h-[45px] mx-auto lg:mx-[1px]'
+                src={item.src}
+              />
+            </div>
             <p className='text-[22px] font-semibold my-2'>{item.heading}</p>
             <p className='text-[#7f8c8d] text-[18px] w-[320px]'>
               {item.paragraph}
@@ -64,6 +67,15 @@ const Dedicated = () => {
           </div>
         ))}
       </section>
+      <div className='flex justify-start my-0 mx-auto w-[50%] gap-[25rem] items-baseline mt-10'>
+        <div className='w-[1.5rem]'>
+          <img src={Ellipse19} alt='' />
+        </div>
+
+        <div className='ml-7'>
+          <img src={Ellipse24} alt='laoding' />
+        </div>
+      </div>
     </div>
   );
 };

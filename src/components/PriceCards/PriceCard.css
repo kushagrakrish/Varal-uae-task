@@ -1,0 +1,38 @@
+.Pricing-SEC1 {
+  border-radius: 8px;
+  color: #525ded;
+}
+
+.Pricing-SEC3 {
+  border-radius: 8px;
+  color: #525ded;
+}
+
+.Pricing-SEC2 {
+  background-color: #525ded;
+  color: white;
+  border-radius: 8px;
+}
+
+.Pricing-SEC2 img {
+  background-color: white;
+  border-radius: 9px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid #525ded;
+  color: #525ded;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
