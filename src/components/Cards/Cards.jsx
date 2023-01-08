@@ -4,9 +4,6 @@ import groupPic1 from "../../Assets/Group-1.png";
 import groupPic12 from "../../Assets/ILLUSTRATION 03  1.png";
 import groupPic3 from "../../Assets/Group-2.png";
 import vector from "../../Assets/Vector.png";
-import Ellipse14 from "../../Assets/Ellipse 14.png";
-import Ellipse19 from "../../Assets/Ellipse 19.png";
-import Ellips21 from "../../Assets/Ellipse 21.png";
 
 const Cards = () => {
   return (
