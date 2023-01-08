@@ -15,7 +15,7 @@ const PriceCard = () => {
           </p>
         </div>
         {/* Pricing Card Mapping */}
-        <div className='flex items-center justify-evenly mt-20 '>
+        <div className='flex items-center justify-evenly mt-20 max-[640px]:overflow-hidden md:overflow-hidden lg:overflow-hidden sm:overflow-hidden sm:gap-5 sm:text-sm max-[640px]:gap-6'>
           <section className='Pricing-SEC1 p-12 border-2 lg:border-0 border-[#7f8c8d] w-[25rem]'>
             <p className='heading'>AJMAN OFFSHORE</p>
             <p>
@@ -294,6 +294,11 @@ const PriceCard = () => {
             </div>
             <button className='button'>Continue</button>
           </section>
+        </div>
+        <div className='flex items-center mx-auto justify-center flex lg:hidden '>
+          <div className='h-5 w-5 bg-white rounded-full m-3 border-2 border-[#525DED]'></div>
+          <div className='h-8 w-8 bg-[#525DED] rounded-full m-3'></div>
+          <div className='h-5 w-5 bg-white rounded-full m-3  border-2 border-[#525DED]'></div>
         </div>
       </div>
     </>
