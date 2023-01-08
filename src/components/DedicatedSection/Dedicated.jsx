@@ -57,6 +57,7 @@ const Dedicated = () => {
               <img
                 className='my-5 h-[45px] mx-auto lg:mx-[1px]'
                 src={item.src}
+                alt='imgs'
               />
             </div>
             <p className='text-[22px] font-semibold my-2'>{item.heading}</p>

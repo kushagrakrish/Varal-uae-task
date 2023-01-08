@@ -1,7 +1,6 @@
 import Hamburger from "hamburger-react";
 import React, { useState } from "react";
 import Logo from "../../Assets/Group 114.png";
-import menu from "../../Assets/menu.webp";
 
 const Links = ["Home", "Services", "Pricing", "About Us"];
 const Navbar = () => {
