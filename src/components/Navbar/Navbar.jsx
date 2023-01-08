@@ -18,9 +18,9 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              {/* <button className='text-white bg-[#525DED] rounded-lg mt-[10px] p-[10px] w-[10%] lg:w-[100%] text-[1px] lg:text-[20px] hover:bg-[#2c34a1] hover:transition-all'>
+              <button className='text-white bg-[#525DED] rounded-lg mt-[10px] p-[10px] w-[10%] lg:w-[100%] text-[1px] lg:text-[20px] hover:bg-[#2c34a1] hover:transition-all'>
                 Start a Company
-              </button> */}
+              </button>
             </li>
           </div>
           {/* Hamburger Menu on Small Screen */}
